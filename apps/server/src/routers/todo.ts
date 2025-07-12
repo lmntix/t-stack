@@ -16,7 +16,8 @@ export const todoRouter = {
         .insert(todo)
         .values({
           text: input.text,
-        });
+        })
+        .returning();
       return result[0];
     }),
 
@@ -37,4 +38,3 @@ export const todoRouter = {
       return { success: true };
     }),
 };
-
