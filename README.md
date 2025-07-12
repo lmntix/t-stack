@@ -14,6 +14,7 @@ This project was created with [Better-T-Stack](https://github.com/AmanVarshney01
 - **Drizzle** - TypeScript-first ORM
 - **SQLite/Turso** - Database engine
 - **Turborepo** - Optimized monorepo build system
+- gyjwfgweu
 
 ## Getting Started
 
@@ -22,23 +23,24 @@ First, install the dependencies:
 ```bash
 pnpm install
 ```
+
 ## Database Setup
 
 This project uses SQLite with Drizzle ORM.
 
 1. Start the local SQLite database:
+
 ```bash
 cd apps/server && pnpm db:local
 ```
 
-
 2. Update your `.env` file in the `apps/server` directory with the appropriate connection details if needed.
 
 3. Apply the schema to your database:
+
 ```bash
 pnpm db:push
 ```
-
 
 Then, run the development server:
 
@@ -48,8 +50,6 @@ pnpm dev
 
 Open [http://localhost:3001](http://localhost:3001) in your browser to see the web application.
 The API is running at [http://localhost:3000](http://localhost:3000).
-
-
 
 ## Project Structure
 
